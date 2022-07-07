@@ -1,0 +1,9 @@
+#hours ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+.hours__day {
+  display: inline-block;
+  min-width: 12ch;
+}
