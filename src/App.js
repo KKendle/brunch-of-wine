@@ -1,5 +1,6 @@
 import './App.css';
 import Hours from './components/Hours';
+import Address from './components/Address';
 
 function App() {
   return (
@@ -10,10 +11,7 @@ function App() {
 
       <Hours></Hours>
 
-      <section id="address">
-        <h2>Address</h2>
-        <address>123 Sesame St<br />Cool, AZ 98765</address>
-      </section>
+      <Address></Address>
     </div>
   );
 }
